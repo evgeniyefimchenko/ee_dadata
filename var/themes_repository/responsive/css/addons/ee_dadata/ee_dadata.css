@@ -1,0 +1,20 @@
+.ee_front_suggestions-item {
+	cursor: pointer;
+	padding: 5px;
+}
+
+.ee_front_suggestions-item:hover {
+	background-color: aliceblue;
+	padding: 10px;
+}
+
+#ee_front_suggestions {
+	border-radius: 5px;
+	background-color: #f5f5f6;
+	border: 1px solid #ccc;
+	z-index: 9999;
+	position: absolute;
+	height: auto;
+	max-height: 200px;
+	overflow: auto;
+}

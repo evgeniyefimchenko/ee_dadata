@@ -1,0 +1,29 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU"
+
+msgctxt "Addons::name::ee_dadata"
+msgid "ee_dadata_name"
+msgstr "[efimchenko.com] Интеграция с сервисом DADATA"
+
+msgctxt "Addons::description::ee_dadata"
+msgid "ee_dadata_description"
+msgstr "Модуль интегрирует сайт с сервисом DADATA Для подсказки при заполнении поле адреса покупателем."
+
+msgctxt "SettingsSections::ee_dadata::general"
+msgid "ee_dadata_general"
+msgstr "Общее"
+
+msgctxt "SettingsOptions::ee_dadata::api_key"
+msgid "ee_dadata_API_KEY"
+msgstr "API_KEY"
+
+msgctxt "SettingsOptions::ee_dadata::secret_key"
+msgid "ee_dadata_SECRET_KEY"
+msgstr "SECRET_KEY"
+
+msgctxt "SettingsOptions::ee_dadata::count_char_query"
+msgid "ee_dadata_count_char_query"
+msgstr "Количество символов перед запросом"

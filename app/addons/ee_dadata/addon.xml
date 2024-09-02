@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>ee_dadata</id>
+    <version>1.0.0</version>
+    <status>active</status>
+    <default_language>ru</default_language>
+
+    <has_icon>Y</has_icon>
+    <supplier>efimchenko.com</supplier>
+    <supplier_link>https://efimchenko.com</supplier_link>
+
+    <settings layout="separate" edition_type="ROOT,VENDOR,STOREFRONT">
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="api_key">                      
+                        <type>input</type>
+                    </item>
+                    <item id="secret_key">                      
+                        <type>hidden</type>
+                    </item>
+                    <item id="count_char_query">                      
+                        <type>input</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+
+    <functions>
+        <item for="install">fn_ee_dadata_install</item>
+        <item for="uninstall">fn_ee_dadata_uninstall</item>
+    </functions>
+</addon>

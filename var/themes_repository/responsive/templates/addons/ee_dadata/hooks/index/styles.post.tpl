@@ -1,0 +1,1 @@
+{style src="addons/ee_dadata/ee_dadata.css"}
